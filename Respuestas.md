@@ -13,7 +13,7 @@ pasos que indiquemos en "~1".
 
 **2. ¿Qué comando o comandos utilizaste en el paso 12? ¿Por qué?**
 
-`git reflog`  y `git reset --hard XXXXXX"
+`git reflog`  y `git reset --hard bf45afd"
 siendo XXXXXX la referencia del commit al que había que retroceder
 
 Con git reflog se puede ver cada paso realizado y la referencia de su correspondiente commit. copiando esta referencia e incluyendola en el comando "git reset --hard xxxxxxx" en el lugar de las "xxxxxx", se puede acceder a ese paso.
